@@ -1,0 +1,108 @@
+.clientimagetag{
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-fit: cover;
+}
+.nameoftheclienttestimonail{
+    font-family:"Poppins";
+    font-weight: 500;
+    font-size: 20px;
+}
+.WOrknametestimonial{
+    font-family:"Poppins";
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(230, 230, 230);
+}
+.TestimonialreviewContentsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.reviewContenttagtestimonial{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    color: rgba(215, 215, 215, 0.92);
+  
+
+}
+.testimonialimageandnamecontentsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.testimonialstarsection{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.wholeTestimonialComp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 400px;
+    border-radius: 20px;
+    border: 0.4px solid rgba(235, 235, 235, 0.226) ;
+}
+.Testimonialheadingtag{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 23px;
+}
+.sideparagraphhaeadingtagtestimonial{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(220, 220, 220, 0.856);
+}
+.Headingdivtestimonial{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+.whoelTestimonialdivv{
+    margin-top: 100px;
+}
+.fullcompdivvv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.ogtestimonialdivv{
+    overflow-x: visible;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:453px){
+    .reviewContenttagtestimonial{
+        width: 98%;
+    }
+    .Testimonialheadingtag{
+        font-size: 20px;
+    }
+    .sideparagraphhaeadingtagtestimonial{
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+    }
+}

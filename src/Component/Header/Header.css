@@ -1,0 +1,61 @@
+.Headingtagforlogo {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.routingtagsection {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(168, 168, 167);
+    transition: transform 0.5s ease, color 0.5s ease;
+
+}
+
+.routingtagsection:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    color: white;
+}
+.Logoorname{
+    text-decoration: none;
+}
+
+.contactbuttonheading {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    background-color: white;
+    padding: 13px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.contactbuttonheading:hover {
+    background-color: black;
+    color: white;
+    border: 0.2px solid rgba(255, 255, 255, 0.436);
+}
+
+.Routingsectiondiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Headersectindiv {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    align-items: center;
+    gap: 150px;
+  
+}
+

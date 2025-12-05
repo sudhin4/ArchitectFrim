@@ -1,0 +1,126 @@
+.questionheadingtag{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+}
+.answertaggheading{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    width: 550px;
+    color: rgba(232, 232, 232, 0.87);
+}
+.questiondivvsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.downarrowicons{
+    font-size: 20px;
+    position: absolute;
+    left: 75%;
+    font-weight: 500;
+}
+.fullcomponentsectiondivv{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    /* border: 0.2px solid rgba(255, 255, 255, 0.091); */
+    background-color: rgb(32, 32, 32);
+
+}
+.answerdivsection{
+
+    margin-top: 15px;
+    opacity: 1;
+    max-height: fit-content;
+    overflow: hidden;
+    transition: max-height 1s ease,opacity 1s ease;
+}
+.answerdivsectionn{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+
+}
+.fullfaqcompp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.faqquestionandanswersection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.Faqsectionheading{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+}
+.answerheadingoftheqaq{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(233, 233, 233);
+}
+.headingtagsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+@media only screen and (max-width:453px){
+    .Faqsectionheading{
+        font-size: 20px;
+    }
+    .answerheadingoftheqaq{
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .questionheadingtag{
+        font-size: 14px;
+       width: 91%;
+        text-align: start;
+    }
+    .questiondivvsection{
+        gap: -10px;
+        width: 380px;
+    }
+    .fullfaqcompp{
+        position: relative;
+        justify-content: start;
+        width: 90%;
+        right: 10px;
+    }
+    .downarrowicons{
+        left: 93%;
+    }
+    .answertaggheading{
+        font-size: 12px;
+        width: 90%;
+    }
+    .answerdivsection, .answerdivsectionn{
+        width: 100%;
+    }
+    .fullcomponentsectiondivv{
+        width: 90%;
+    }
+    .questiondivvsection{
+        width: 100%;
+    }
+    .faqquestionandanswersection{
+        position: relative;
+        bottom: 40px;
+    }
+}

@@ -1,0 +1,139 @@
+.imagesectionforServicecardcomp {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    transition: width 1s ease, border-radius 1s ease;
+}
+
+.nameoftheservicesectionheading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.servicesideheadingtag {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    width: 470px;
+    line-height: 1.2;
+    color: rgba(209, 208, 208, 0.877);
+}
+
+.detailsbtnsection {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(240, 240, 240);
+    width: max-content;
+    border: 0.2px solid rgba(255, 255, 255, 0.436);
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.detailsbtnsection:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 0.1px solid rgba(255, 255, 255, 0.295);
+}
+
+.fullservicecompdivvv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 0.3px solid rgba(216, 216, 216, 0.539);
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.fullservicecompdivvv:hover .imagesectionforServicecardcomp {
+    border-radius: 10px;
+    width: 450px
+}
+
+.firstsectionservicesection {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.secondsectionservicesection {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fullservicesectiondivvv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.serviceheadingtag {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.serviceparagraphsectiontag {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(210, 210, 210);
+}
+
+.headingdivsection {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+@media only screen and (max-width:453px) {
+    .firstsectionservicesection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondsectionservicesection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fullservicecompdivvv {
+        width: 87%;
+        position: relative;
+        left: 5px;
+    }
+
+    .servicesideheadingtag {
+        width: 100%;
+        font-size: 15px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .fullservicecompdivvv:hover .imagesectionforServicecardcomp {
+        border-radius: 10px;
+        width: 320px;
+    }
+
+    .fullservicecompdivvv:hover {
+        transform: none;
+    }
+    .serviceparagraphsectiontag{
+        width: 90%;
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}

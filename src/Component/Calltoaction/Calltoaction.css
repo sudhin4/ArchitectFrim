@@ -1,0 +1,64 @@
+.headingofcalltoactionheaidng{
+    font-family: 'Poppins';
+    font-weight: 450;
+    font-size: 23px;
+}
+.sideheadingcalltoactionheading{
+    font-family: 'Poppins';
+    font-weight: 350;
+    font-size: 18px;
+    width: 440px;
+    text-align: center;
+    color: rgba(222, 222, 222, 0.822);
+}
+.calltoactionbtn{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    border: 0.5px solid rgba(255, 255, 255, 0.174);
+    padding: 8px;
+    border-radius: 5px;
+    width: max-content;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+.calltoactionbtn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.897);
+}
+.calltoactionfulldivv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+    background-color: rgba(41, 41, 41, 0.699);
+    border-radius: 20px;
+    padding: 20px;
+}
+.fullcalltoactionnnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width:453px){
+    .calltoactionfulldivv{
+        width: 905;
+    }
+    .headingofcalltoactionheaidng{
+        width: 95%;
+        font-size: 20px;
+        text-align: start;
+        position: relative;
+        
+    }
+    .sideheadingcalltoactionheading{
+        font-size: 16px;
+        text-align: center;
+
+        width: 95%
+    }
+}

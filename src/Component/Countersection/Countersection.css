@@ -1,0 +1,37 @@
+.count-up-text{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+}
+.headingofCountersection{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    width: 150px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    line-height: 1.2;
+}
+.firstsectioncounter{
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgba(222, 222, 222, 0.174);
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.Fullcountersectiondivv{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width:453px){
+    .Fullcountersectiondivv{
+        flex-direction: column;
+    }
+}
